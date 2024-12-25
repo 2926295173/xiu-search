@@ -1,9 +1,8 @@
 import axios from './request.js'
 import store from '@/store'
 
-// let baseUrl = 'http://39.106.132.154:8000/api/v1'
-const ip = 'http://39.106.132.154:8000'
-// const ip = 'http://localhost:8000'
+//const ip = 'http://39.106.132.154:8000'
+const ip = 'http://localhost:8000'
 const baseUrl = `${ip}/api/v1`
 
 
