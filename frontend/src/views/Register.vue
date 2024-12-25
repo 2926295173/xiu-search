@@ -232,7 +232,7 @@ export default {
 			margin-bottom: 0.15rem;
 		}
 		.el-form {
-			/deep/ .el-autocomplete {
+			:deep( .el-autocomplete) {
 				width: 4.5rem;
 				outline-style: none;
 			}
@@ -242,7 +242,7 @@ export default {
 				align-items: center;
 			}
 			.el-form-item {
-				/deep/ .el-input {
+				:deep( .el-input) {
 					outline: none;
 				}
 			}

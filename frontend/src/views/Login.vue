@@ -190,7 +190,7 @@ export default {
 			color: #ccc;
 		}
 		.el-form {
-			/deep/ .el-autocomplete {
+			:deep( .el-autocomplete) {
 				width: 5.5rem;
 				outline-style: none;
 			}
@@ -200,7 +200,7 @@ export default {
 				align-items: center;
 			}
 			.el-form-item {
-				/deep/ .el-input {
+				:deep( .el-input) {
 					outline: none;
 				}
 			}
