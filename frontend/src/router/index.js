@@ -37,7 +37,9 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(import.meta.BASE_URL),
+
+  //history: createWebHistory(process.env.BASE_URL),
   routes
 })
 // 注册全局前置守卫
