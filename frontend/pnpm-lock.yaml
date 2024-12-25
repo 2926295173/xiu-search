@@ -40,8 +40,8 @@ importers:
         specifier: ~4.5.19
         version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13))
       '@vue/cli-plugin-vuex':
-        specifier: ~4.5.19
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13))
+        specifier: ~5.0.8
+        version: 5.0.8(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13))
       '@vue/cli-service':
         specifier: ~4.5.19
         version: 4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13)
@@ -850,6 +850,11 @@ packages:
     resolution: {integrity: sha512-DUmfdkG3pCdkP7Iznd87RfE9Qm42mgp2hcrNcYQYSru1W1gX2dG/JcW8bxmeGSa06lsxi9LEIc/QD1yPajSCZw==}
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
+
+  '@vue/cli-plugin-vuex@5.0.8':
+    resolution: {integrity: sha512-HSYWPqrunRE5ZZs8kVwiY6oWcn95qf/OQabwLfprhdpFWAGtLStShjsGED2aDpSSeGAskQETrtR/5h7VqgIlBA==}
+    peerDependencies:
+      '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
 
   '@vue/cli-service@4.5.19':
     resolution: {integrity: sha512-+Wpvj8fMTCt9ZPOLu5YaLkFCQmB4MrZ26aRmhhKiCQ/4PMoL6mLezfqdt6c+m2htM+1WV5RunRo+0WHl2DfwZA==}
@@ -5873,6 +5878,10 @@ snapshots:
       '@vue/cli-shared-utils': 4.5.19
 
   '@vue/cli-plugin-vuex@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13))':
+    dependencies:
+      '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13)
+
+  '@vue/cli-plugin-vuex@5.0.8(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13))':
     dependencies:
       '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.13)(less-loader@5.0.0(less@3.13.1)(webpack@4.47.0))(lodash@4.17.21)(vue@3.5.13)
 
