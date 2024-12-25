@@ -106,10 +106,10 @@ pip install -r requirments_ -i https://pypi.tuna.tsinghua.edu.cn/simple
 
    ```shell
    cd fontend
-   nvm use 18
-   npm install -g pnpm
-   pnpm install
-   pnpm run serve
+   npm install -g bun
+   bun install
+   bun run build
+   bun run serve
    ```
 **欢迎iusse，感谢⭐star⭐**
    
