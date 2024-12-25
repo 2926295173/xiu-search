@@ -13,7 +13,7 @@
 import DetailNav from "@/components/ResultList/DetailNav.vue";
 import SomeTips from "@/components/ResultList/SomeTips.vue";
 import List from "@/components/ResultList/List.vue";
-import RelatedSearch from "@/components/ResultList/RelatedSearch.vue";
+//import RelatedSearch from "@/components/ResultList/RelatedSearch.vue";
 import PageIndex from "@/components/ResultList/PageIndex.vue";
 
 import { onMounted, onBeforeMount, reactive } from "vue";
@@ -26,7 +26,7 @@ export default {
 		DetailNav,
 		SomeTips,
 		List,
-		RelatedSearch,
+//		RelatedSearch,
 		PageIndex,
 	},
 

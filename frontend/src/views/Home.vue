@@ -12,7 +12,7 @@
 import SampleNav from "@/components/Home/SampleNav.vue";
 import Logo from "@/components/Home/Logo.vue";
 import SearchBox from "@/components/Home/SearchBox.vue";
-import Footer from "@/components/Footer.vue";
+//import Footer from "@/components/Footer.vue";
 
 export default {
 	name: "Home",
@@ -20,7 +20,7 @@ export default {
 		SampleNav,
 		Logo,
 		SearchBox,
-		Footer,
+		//Footer,
 	},
 };
 </script>
