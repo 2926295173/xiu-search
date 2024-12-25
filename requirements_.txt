@@ -14,4 +14,4 @@ jieba
 pymysql
 lxml
 beautifulsoup4
-PyJWT==2.1.0
+PyJWT==2.4.0
