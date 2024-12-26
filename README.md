@@ -34,7 +34,8 @@ XiuSearch是一款搜索技术博客的搜索引擎，当然，如果你将种�
 
 ### 主要技术栈
 + Scrapy 2.5.1
-+ ElasticSearch 7.15.2
++ ElasticSearch 7.15.2 (future remove)
++ meilisearch (future use)
 + Django 3.1
 + DjangoRestFramework 3.12
 + Vue3
