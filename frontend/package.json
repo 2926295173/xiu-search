@@ -9,7 +9,7 @@
 
   },
   "dependencies": {
-    "@trevoreyre/autocomplete-vue": "~2.4.1",
+    "@trevoreyre/autocomplete-vue": "~3.0.3",
     "axios": "~0.24.0",
     "browserslist": "~4.24.3",
     "element-plus": "~2.9.1",
